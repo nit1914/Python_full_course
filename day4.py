@@ -51,6 +51,7 @@ print("After **= operator:", c) # Output: 1.0
 
 m = 5  # In binary: 0101
 n = 3  # In binary: 0011
+
 print("Bitwise AND:", m & n)  # Output: 1 (In binary: 0001)
 print("Bitwise OR:", m | n)   # Output: 7 (In binary
 print("Bitwise XOR:", m ^ n)  # Output: 6 (In binary: 0110)
@@ -113,4 +114,5 @@ x %= 2  # Equivalent to x = x % 2
 print("After %= operator:", x)  # Output: 1.0
 x **= 3 # Equivalent to x = x ** 3
 print("After **= operator:", x) # Output: 1.0
+
 
