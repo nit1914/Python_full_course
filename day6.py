@@ -1,25 +1,25 @@
-#String Indexing
+# #String Indexing
 
-name = "nitesh"
-print(name[0]) #n
-print(name[1]) #i
-print(name[2]) #t
-print(name[3]) #e
-print(name[4]) #s
-print(name[5]) #h
-print(name[-1]) #h
-print(name[-2]) #s
-print(name[-3]) #e
-print(name[-4]) #t
-print(name[-5]) #i
-print(name[-6]) #n
+# name = "nitesh"
+# print(name[0]) #n
+# print(name[1]) #i
+# print(name[2]) #t
+# print(name[3]) #e
+# print(name[4]) #s
+# print(name[5]) #h
+# print(name[-1]) #h
+# print(name[-2]) #s
+# print(name[-3]) #e
+# print(name[-4]) #t
+# print(name[-5]) #i
+# print(name[-6]) #n
 
-#string slicing
+# #string slicing
 
-product = "Laptop pro 2025"
-print(product[0:6]) #Laptop
-print(product[7:10]) #pro
-print(product[-11:-5]) #op pro
+# product = "Laptop pro 2025"
+# print(product[0:6]) #Laptop
+# print(product[7:10]) #pro
+# print(product[-11:-5]) #op pro
 
 # text = "Data Analytics"
 ##Extracting first 4 characters
@@ -40,4 +40,5 @@ print(product[-11:-5]) #op pro
 #skip text
 # print("Skipping characters:",text[0:14:2]) #Dt nltcs
 # print("Reverse :",text[::-1]) #scitynaltA aD
+
 
