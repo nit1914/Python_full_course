@@ -1,7 +1,8 @@
 # # Day 12 - While Loop
 
-# # 1 Basic while loop
 
+
+# # 1 Basic while loop
 # i=1
 # while i<=10:
 #     print(i)
@@ -62,6 +63,7 @@
 #         print("Incorrect password. Try again, Attempts left:", 3 - attempts)
 # else:
 #     print("Too many failed attempts. Access denied.")
+
 
 
 
