@@ -5,9 +5,11 @@
 # print(fruits)
 
 
+
 # # Add items
 # fruits.add("orange")
 # print(fruits)   
+
 
 
 
@@ -35,6 +37,7 @@
 # print(unique_numbers)
 
 
+
 # # Missing values
 # list1 = {"Sql","Excel","Python"}
 # list2 = {"Sql","Python"}
@@ -43,8 +46,10 @@
 
 
 
+
 # # Common skills
 # deptA = {"Sql","Excel","Python"}
 # deptB = {"Sql","Python","R"}
 # common = deptA & deptB
 # print("common:", common)
+
