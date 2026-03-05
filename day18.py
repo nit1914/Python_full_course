@@ -8,7 +8,6 @@
 
 # def welcome(name):
 #     print("Welcome",name)
-
 # welcome("Nitesh")
 
 
@@ -28,6 +27,7 @@
 # output = clean_text("    muMbai    ")
 # print(output)
 
+
 # def fix_city(city):
 #     city = city.lower().strip()
 #     city = city.replace("mombai","mumbai")
@@ -38,18 +38,20 @@
 
 # def get_year(code):
 #     return code[-4:]
-
 # print(get_year("Laptop-2024"))
+
+
 
 # def is_valid_email(email):
 #     return "@" in email and "." in email
-
 # print(is_valid_email("test@gmail.com"))
+
 
 
 # def total_salary (basic,bonus):
 #     return basic + bonus
 # print(total_salary(20000,500))
+
 
 
 # def stats(nums):
