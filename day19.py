@@ -57,6 +57,7 @@
 # print(domains)
 
 
-mobiles = ["1728947198","l87597209438","847933849"]
-valid = [m for m in mobiles if m.isdigit() and len(m) ==10]
-print(valid)
+# mobiles = ["1728947198","l87597209438","847933849"]
+# valid = [m for m in mobiles if m.isdigit() and len(m) ==10]
+
+# print(valid)
