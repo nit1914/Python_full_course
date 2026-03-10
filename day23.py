@@ -1,4 +1,4 @@
-import numpy as np
+# import numpy as np
 
 # print("===Creating Arrays ===")
 # arr = np.array([10,20,30])
@@ -30,4 +30,5 @@ import numpy as np
 # cities = np.array([" mumbai","PUNE", " Delhi","  mUmBaI"])
 # cities = np.char.strip(cities)
 # cities = np.char.title(cities)
+
 # print(cities)
