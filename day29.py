@@ -5,6 +5,7 @@ import os
 
 # -------------------- Helper Functions --------------------
 
+
 def browse_input_file():
     path = filedialog.askopenfilename(
         title="Select Excel File",
@@ -41,6 +42,8 @@ def clean_data():
     try:
         df = pd.read_excel(input_file)
 
+
+        
         # Identify text columns
         text_columns = df.select_dtypes(include=['object']).columns
 
@@ -57,6 +60,8 @@ def clean_data():
         if title_case_var.get():
             df[text_columns] = df[text_columns].apply(lambda col: col.str.title())
 
+
+        
         # Save cleaned file
         base_name = os.path.basename(input_file)
         output_path = os.path.join(output_folder, f"Cleaned_{base_name}")
@@ -84,6 +89,7 @@ trim_text_var = tk.BooleanVar()
 title_case_var = tk.BooleanVar()
 
 # -------------------- Layout --------------------
+
 
 # Input File Section
 frame_input = tk.LabelFrame(root, text="Input Excel File", padx=10, pady=10)
